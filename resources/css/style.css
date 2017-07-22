@@ -47,12 +47,21 @@ nav span {
   border: 4px solid black;
 }
 
+#landing-page {
+  flex-direction: row;
+  align-items: center;
+}
+
+#landing-page .image-container {
+  height: auto;
+  width: 60%;
+  padding: 32px 24px;
+}
 
 #landing-page img{
-  display: inline;
-  margin: 32px 40px 32px 24px;
-  width: 60%;
-  height: 60%;
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 #landing-page .content {
@@ -65,4 +74,33 @@ nav span {
   width: auto%;
   text-align: center;
 
+}
+
+/* Info (Page 2) */
+
+#info a {
+  display: flex;
+}
+
+#info {
+  flex-direction: row;
+  padding: 0;
+}
+
+#info .article {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+#info .image-container {
+  height: auto;
+  overflow: hidden;
+}
+
+#info img {
+  min-height: 350px;
+  width: 100%;
+  height: auto;
 }
